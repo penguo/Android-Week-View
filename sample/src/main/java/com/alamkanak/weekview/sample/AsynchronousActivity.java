@@ -66,7 +66,7 @@ public class AsynchronousActivity extends BaseActivity implements Callback<List<
         for (Event event : events) {
             this.events.add(event.toWeekViewEvent());
         }
-        getWeekView().notifyDatasetChanged();
+        getWeekView().notifyDataSetChanged();
     }
 
     @Override
